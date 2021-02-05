@@ -75,11 +75,9 @@ jobs:
       working-directory: ./openwrt
       run: |
         git clone https://github.com/xiaorouji/openwrt-passwall.git package/lienol
-        git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lienol
-        git clone https://github.com/esirplayground/luci-app-poweroff.git package/lienol
-        git clone https://github.com/Dreamacro/clash.git package/lienol
-        git clone https://github.com/vernesong/OpenClash.git package/lienol
-        
+        git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean
+        git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean
+        git clone https://github.com/esirplayground/luci-theme-atmaterial-ColorIcon.git package/lean
     #    git clone "your_github_link" package/"your_folder_name"      
 
     - name: Configuration Customization - Build_NanoPi_R2S
